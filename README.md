@@ -26,3 +26,31 @@
    ```bash
    git clone https://github.com/yourname/Flyception-Homo.git
    cd Flyception-Homo
+   ```
+2. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. 运行模拟器（请确保已下载MaleCNS连接组数据）：
+   ```bash
+   python scripts/fly_brain_reader.py --config configs/homo_config.json
+   ```
+⚠️ 伦理声明
+本项目中所有果蝇均为数字模拟（Digital Twin）。没有真实果蝇在拍摄过程中受到伤害（虽然它们可能被远野拒绝了）。
+
+🙏 致谢
+感谢 FlyWire 和 Janelia 研究园区提供的开源连接组数据。
+感谢 野兽先辈 提供的神经回路灵感。
+感谢 远野 贡献的逃避反射数据
+
+
+---
+
+### 📦 `requirements.txt` （依赖库）
+
+```text
+numpy==1.26.0
+pynput==1.7.6
+python-osc==1.9.0
+opencv-python==4.9.0
+requests==2.31.0
