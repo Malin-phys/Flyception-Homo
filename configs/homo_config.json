@@ -1,0 +1,21 @@
+{
+  "neuron_mappings": {
+    "P1_Neuron": {
+      "target": "wing_vibration",
+      "video_param": "slow_motion_warm_light",
+      "llm_prompt": "深情款款，逼近，好啊来啊"
+    },
+    "Giant_Fiber": {
+      "target": "escape_behavior",
+      "video_param": "glitch_effect_cold_blue",
+      "llm_prompt": "被逼到角落，唔唔唔，不对劲"
+    },
+    "PAM_Dopamine": {
+      "target": "reward_prediction_error",
+      "video_param": "bloom_effect_hue_shift",
+      "llm_prompt": "昏睡红茶，逸一时误一世"
+    }
+  },
+  "camera_angles": ["fly_pov", "third_person_zoom"],
+  "dream_mode_trigger": "slow_wave_oscillation > 0.8"
+}
